@@ -13,7 +13,8 @@ Este proyecto es una herramienta web que permite encriptar y desencriptar mensaj
 1. Ingresa el mensaje que deseas encriptar en el campo "Ingrese el texto aqui".
 2. Haz clic en el botón "Encriptar" para cifrar el mensaje utilizando el cifrado de sustitución de la tabla Oracle.
 3. Si deseas desencriptar un mensaje, haz clic en el botón "Desencriptar".
-4. El mensaje encriptado o desencriptado se mostrará en el campo correspondiente.
+4. tambien puedes hacer click en copiar y pegar el texto encriptado/desencriptado con un solo click
+5. El mensaje encriptado o desencriptado se mostrará en el campo correspondiente.
 
 ## Autor
 
