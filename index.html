@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./img/Vector.png" alt="" />
+    </header>
+    <main>
+      <section class="section1">
+        <div class="encriptar">
+          <textarea
+            type="text"
+            id="textEncrypted"
+            placeholder="Ingrese el texto aqui"
+          ></textarea>
+        </div>
+        <div class="terminos">
+          <p>⚠ Solo letras minusculas y sin acentos</p>
+        </div>
+        <div class="btns">
+          <button type="button" id="btnEncrypted" onclick="encrypted()">
+            <p>Encriptar</p>
+          </button>
+          <button type="button" id="btnDecrypted" onclick="decrypted()">
+            <p>Desencriptar</p>
+          </button>
+        </div>
+      </section>
+      <section class="section2">
+        <div class="desencriptado">
+          <img id="toy" src="/img/Muñeco.png" alt="" />
+          <div id="text-desencriptado">
+            <h2 id="mensaje">Ningun mensaje encontrado</h2>
+            <p id="mensaje2">Ingresa el texto que deseas encriptar o desencriptar</p>
+
+            <textarea
+              name="result"
+              id="textDecrypted"
+              cols="30"
+              rows="10"
+              class="mensaje"
+            ></textarea>
+
+            <button type="button" id="btnCopy" onclick="copy()">
+              <p>Copiar</p>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>© Isaias Agustin Romero : https://github.com/Tiin24</footer>
+  </body>
+  <script src="/script.js"></script>
+</html>
